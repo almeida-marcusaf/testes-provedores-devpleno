@@ -32,7 +32,7 @@ connection.connect(err => {
 })
 
 app.get('/', (req, res) => {
-  res.send('Hello DevPleno!')
+  res.send('Hello DevPlenoBH!')
 })
 app.get('/contacts', (req, res) => {
   connection.query('select * from contacts', (err, rows) => {
